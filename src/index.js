@@ -1,3 +1,10 @@
+/**
+ * Filename: index.js
+ * Student name: Darpan Nayyar
+ * Student ID: 301419475
+ * Date: 2024-06-07
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

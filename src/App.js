@@ -1,23 +1,17 @@
+/**
+ * Filename: App.js
+ * Student name: Darpan Nayyar
+ * Student ID: 301419475
+ * Date: 2024-06-07
+ */
+
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Initial commit for portfolio site.
     </div>
   );
 }
