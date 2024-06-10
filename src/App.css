@@ -5,36 +5,37 @@
  * Date: 2024-06-07
  */
 
- .App {
-    font-family: Arial, sans-serif;
-    text-align: center;
+ .App-header {
+    background-color: #9be1ed;
+    padding: 10px 20px;
+    color: #0d0d0d;
+    display: flex;
+    align-items: center;
 }
 
-.App-header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
+.logo {
+    height: 50px;
+    margin-right: 20px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: unset;
+    padding: 8px 12px;
+    border-radius: 6px;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
-}
-
-main {
-    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
 }
