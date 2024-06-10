@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import profileImage from '../../images/logo.jpg'; 
+import profileImage from '../../images/pp.jpg'; 
 import resumePDF from '../../documents/resume.pdf';
 import './AboutMe.css';
 
