@@ -44,7 +44,7 @@ const ContactMe = () => {
                         <label htmlFor="message">Message:</label>
                         <textarea id="message" name="message" value={msg} onChange={e => setMsg(e.target.value)} required></textarea>
                     </div>
-                    <button type="submit">Send Message</button>
+                    <button type="submit" className="btn">Send Message</button>
                 </form>
             </div>
         </div>

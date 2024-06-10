@@ -1,11 +1,11 @@
-.contact-container {
+.home-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
 }
 
-.contact-info, .contact-form {
+.intro-section, .mission-section {
     background-color: #f9f9f9;
     padding: 20px;
     margin: 10px;
@@ -14,11 +14,11 @@
     max-width: 600px;
 }
 
-.contact-info {
+.intro-section {
     background-color: var(--containerBg);
 }
 
-.contact-form {
+.mission-section {
     background-color: var(--containerBg);
 }
 
@@ -26,19 +26,11 @@ h2 {
     margin-top: 0;
 }
 
-.form-group {
-    margin-bottom: 15px;
+.intro-buttons {
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.form-group input, .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+.btn:hover {
+    background-color: #0056b3;
 }
