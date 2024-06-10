@@ -6,11 +6,23 @@
  */
 
 import React from 'react';
+import profileImage from '../../images/logo.jpg'; 
+import resumePDF from '../../documents/resume.pdf';
+import './AboutMe.css';
 
 const AboutMe = () => {
     return (
-        <div>
-            <h2>About Me</h2>
+        <div className="about-me-container">
+            <div className="profile-section">
+                <img src={profileImage} alt="Darpan Nayyar" className="profile-image" />
+                <h2>Darpan Nayyar</h2>
+                <p>
+                    Software-savvy quality assurance professional committed to confirming proper functionality and
+                    usability of software products before release. Specializing in the development and execution of Test scripts for client projects on platforms like Salesforce.
+                </p>
+                <br/>
+                <a href={resumePDF} target="_blank" className="btn resume-link">Download Resume (PDF)</a>
+            </div>
         </div>
     );
 };

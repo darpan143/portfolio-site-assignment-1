@@ -55,6 +55,10 @@ main {
     padding: 20px;
 }
 
+.t-center {
+    text-align: center;
+}
+
 .btn {
     background-color: #007bff;
     outline: none;
