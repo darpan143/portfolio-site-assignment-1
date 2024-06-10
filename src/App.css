@@ -5,6 +5,13 @@
  * Date: 2024-06-07
  */
 
+ .App {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
+
  .App-header {
     background-color: #9be1ed;
     padding: 10px 20px;
@@ -38,4 +45,16 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #EEE;
+    color: #AAA;
+    text-align: center;
+    padding: 2px 20px;
+    margin-top: auto;
 }

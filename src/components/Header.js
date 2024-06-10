@@ -1,3 +1,10 @@
+/**
+ * Filename: Header.js
+ * Student name: Darpan Nayyar
+ * Student ID: 301419475
+ * Date: 2024-06-09
+ */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.jpg';

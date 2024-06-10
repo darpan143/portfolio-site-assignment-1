@@ -14,6 +14,7 @@ import WorkHistory from './components/pages/WorkHistory';
 import Certifications from './components/pages/Certifications';
 import './App.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
@@ -29,7 +30,7 @@ const App = () => {
                         <Route path="/certifications" element={<Certifications/>} />
                     </Routes>
                 </main>
-
+                <Footer/>
             </div>
         </Router>
     );

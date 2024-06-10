@@ -5,7 +5,6 @@
  * Date: 2024-06-09
  */
 
-
 import React from 'react';
 
 const WorkHistory = () => {
