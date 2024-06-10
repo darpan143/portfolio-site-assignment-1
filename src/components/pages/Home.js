@@ -1,19 +1,18 @@
 /**
- * Filename: Skills.js
+ * Filename: Home.js
  * Student name: Darpan Nayyar
  * Student ID: 301419475
  * Date: 2024-06-09
  */
 
-
 import React from 'react';
 
-const Skills = () => {
+const Home = () => {
     return (
         <div>
-            <h2>Skills</h2>
+            <h2>Home</h2>
         </div>
     );
 };
 
-export default Skills;
+export default Home;

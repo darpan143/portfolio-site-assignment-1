@@ -7,11 +7,11 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ProfessionalSummary from './components/pages/ProfessionalSummary';
-import Skills from './components/pages/Skills';
-import Education from './components/pages/Education';
-import WorkHistory from './components/pages/WorkHistory';
-import Certifications from './components/pages/Certifications';
+import Home from './components/pages/Home';
+import Services from './components/pages/Services';
+import AboutMe from './components/pages/AboutMe';
+import ContactMe from './components/pages/ContactMe';
+import Projects from './components/pages/Projects';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -23,11 +23,11 @@ const App = () => {
                 <Header/>
                 <main>
                     <Routes>
-                        <Route exact path="/" element={<ProfessionalSummary/>} />
-                        <Route path="/skills" element={<Skills/>} />
-                        <Route path="/education" element={<Education/>} />
-                        <Route path="/work-history" element={<WorkHistory/>} />
-                        <Route path="/certifications" element={<Certifications/>} />
+                        <Route exact path="/" element={<Home/>} />
+                        <Route path="/about-me" element={<AboutMe/>} />
+                        <Route path="/projects" element={<Projects/>} />
+                        <Route path="/services" element={<Services/>} />
+                        <Route path="/contact" element={<ContactMe/>} />
                     </Routes>
                 </main>
                 <Footer/>

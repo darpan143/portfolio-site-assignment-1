@@ -1,18 +1,19 @@
 /**
- * Filename: WorkHistory.js
+ * Filename: Services.js
  * Student name: Darpan Nayyar
  * Student ID: 301419475
  * Date: 2024-06-09
  */
 
+
 import React from 'react';
 
-const WorkHistory = () => {
+const Services = () => {
     return (
         <div>
-            <h2>Work History</h2>
+            <h2>Services</h2>
         </div>
     );
 };
 
-export default WorkHistory;
+export default Services;

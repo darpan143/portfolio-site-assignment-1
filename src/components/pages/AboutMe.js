@@ -1,5 +1,5 @@
 /**
- * Filename: ProfessionalSummary.js
+ * Filename: AboutMe.js
  * Student name: Darpan Nayyar
  * Student ID: 301419475
  * Date: 2024-06-09
@@ -7,12 +7,12 @@
 
 import React from 'react';
 
-const ProfessionalSummary = () => {
+const AboutMe = () => {
     return (
         <div>
-            <h2>Professional Summary</h2>
+            <h2>About Me</h2>
         </div>
     );
 };
 
-export default ProfessionalSummary;
+export default AboutMe;
