@@ -30,14 +30,17 @@ const Services = () => {
     ];
 
     return (
-        <div className="services-container">
-            {services.map((service, index) => (
-                <div key={index} className="service-card">
-                    <img src={"https://picsum.photos/450/300"} alt={service.title} />
-                    <h3>{service.title}</h3>
-                    <p>{service.description}</p>
-                </div>
-            ))}
+        <div className="page-wrapper">
+            <h2 className="t-center">Services</h2>
+            <div className="services-container">
+                {services.map((service, index) => (
+                    <div key={index} className="service-card">
+                        <img src={"https://via.placeholder.com/450x300"} alt={service.title} />
+                        <h3>{service.title}</h3>
+                        <p>{service.description}</p>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };
