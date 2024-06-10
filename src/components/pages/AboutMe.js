@@ -21,7 +21,7 @@ const AboutMe = () => {
                     usability of software products before release. Specializing in the development and execution of Test scripts for client projects on platforms like Salesforce.
                 </p>
                 <br/>
-                <a href={resumePDF} target="_blank" className="btn resume-link">Download Resume (PDF)</a>
+                <a href={resumePDF} target="_blank" rel="noreferrer" className="btn resume-link">Download Resume (PDF)</a>
             </div>
         </div>
     );
